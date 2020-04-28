@@ -11,7 +11,7 @@ This mod adds pizza marinara for Heat And Climate.
 
 ## License
 
-All texture files in this mod are released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC-BY-NC-SA 4.0).
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+All texture files in this mod are released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC-BY-NC-SA 4.0).  
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-Credit: original works created by defeatedcrow, modified by Iunius118.
+Credit: original works by defeatedcrow, modified by Iunius118.
