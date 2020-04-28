@@ -1,0 +1,26 @@
+{
+    "type": "forge:ore_shapeless",
+    "ingredients": [
+        {
+            "type": "forge:ore_dict",
+            "ore": "foodDough"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "cropTomato"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "cropGarlic"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "cropHerb"
+        }
+    ],
+    "result": {
+        "item": "pizzamarinaraforhac:pizza",
+        "count": 1,
+        "data": 0
+    }
+}

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "pizzamarinaraforhac",
+  "name": "Pizza Marinara for HaC",
+  "description": "Adds pizza marinara for Heat And Climate",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Iunius118"],
+  "credits": "Iunius118, defeatedcrow",
+  "logoFile": "logo_pmfhac.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
