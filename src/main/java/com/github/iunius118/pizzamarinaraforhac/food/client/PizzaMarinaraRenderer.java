@@ -1,6 +1,7 @@
-package com.github.iunius118.pizzamarinaraforhac.food.entity.client;
+package com.github.iunius118.pizzamarinaraforhac.food.client;
 
 import com.github.iunius118.pizzamarinaraforhac.PizzaMarinaraForHaC;
+import com.github.iunius118.pizzamarinaraforhac.food.client.model.SimplePizzaModel;
 import com.github.iunius118.pizzamarinaraforhac.food.entity.PizzaMarinaraEntity;
 import defeatedcrow.hac.core.client.base.DCFoodModelBase;
 import defeatedcrow.hac.core.client.base.DCRenderFoodBase;
@@ -14,29 +15,10 @@ public class PizzaMarinaraRenderer extends DCRenderFoodBase<PizzaMarinaraEntity>
             "textures/entity/food/pizza_marinara_raw.png");
     private static final ResourceLocation BAKED_TEX = new ResourceLocation(PizzaMarinaraForHaC.MOD_ID,
             "textures/entity/food/pizza_marinara_baked.png");
-    private DCFoodModelBase model;
+    private static final DCFoodModelBase MODEL = new SimplePizzaModel(false);
 
     protected PizzaMarinaraRenderer(RenderManager renderManager) {
         super(renderManager);
-
-        loadModel();
-    }
-
-    private void loadModel() {
-        Object modelObject = null;
-        ClassLoader loader = Thread.currentThread().getContextClassLoader();
-
-        try {
-            modelObject = loader.loadClass("defeatedcrow.hac.food.client.model.ModelPizza")
-                    .getConstructor(new Class<?>[]{boolean.class})
-                    .newInstance(false);
-        } catch (ReflectiveOperationException e) {
-            e.printStackTrace();
-        }
-
-        if (modelObject instanceof DCFoodModelBase) {
-            model = (DCFoodModelBase)modelObject;
-        }
     }
 
     @Override
@@ -46,7 +28,7 @@ public class PizzaMarinaraRenderer extends DCRenderFoodBase<PizzaMarinaraEntity>
 
     @Override
     protected DCFoodModelBase getEntityModel(boolean baked) {
-        return model;
+        return MODEL;
     }
 
     public static class Factory implements IRenderFactory<PizzaMarinaraEntity> {

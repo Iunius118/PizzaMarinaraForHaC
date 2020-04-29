@@ -2,8 +2,8 @@ package com.github.iunius118.pizzamarinaraforhac.client;
 
 import com.github.iunius118.pizzamarinaraforhac.CommonProxy;
 import com.github.iunius118.pizzamarinaraforhac.PizzaMarinaraForHaC;
+import com.github.iunius118.pizzamarinaraforhac.food.client.PizzaMarinaraRenderer;
 import com.github.iunius118.pizzamarinaraforhac.food.entity.PizzaMarinaraEntity;
-import com.github.iunius118.pizzamarinaraforhac.food.entity.client.PizzaMarinaraRenderer;
 import com.github.iunius118.pizzamarinaraforhac.food.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.particle.Particle;
@@ -15,7 +15,6 @@ import net.minecraftforge.fml.client.FMLClientHandler;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 
 public class ClientProxy extends CommonProxy {
