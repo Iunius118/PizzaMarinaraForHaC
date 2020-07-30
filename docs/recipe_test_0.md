@@ -43,7 +43,7 @@ configの`PizzaMarinaraRequiresSeedOil`の値（真偽値）によって、以�
 
 <img src="./media/recipe_test_0_tt_f_0.png">
 
-### サーバーがfalseでクライアントもfalse
+### サーバーとクライアントが両方ともfalse
 
 #### レシピA
 
@@ -57,7 +57,7 @@ configの`PizzaMarinaraRequiresSeedOil`の値（真偽値）によって、以�
 
 <img src="./media/recipe_test_0_ff_f_1.png">
 
-### サーバーとクライアントが両方ともfalse
+### サーバーがtrueでクライアントがfalse
 
 #### レシピA
 
