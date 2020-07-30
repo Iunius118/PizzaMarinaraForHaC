@@ -15,14 +15,14 @@ configの`PizzaMarinaraRequiresSeedOil`の値（真偽値）によって、以�
 
 `PizzaMarinaraRequiresSeedOil`が`true`のときは、Seed Oilを要求するレシピが読み込まれる。
 
-`assets/pizzamarinaraforhac/recipes/food/pizza_marinara_raw_seed_oil.json`  
+[`assets/pizzamarinaraforhac/recipes/food/pizza_marinara_raw_seed_oil.json`](https://github.com/Iunius118/PizzaMarinaraForHaC/blob/master/src/main/resources/assets/pizzamarinaraforhac/recipes/food/pizza_marinara_raw_seed_oil.json)    
 <img src="./media/recipe_test_0_recipe_t.png">
 
 ### レシピB
 
 `PizzaMarinaraRequiresSeedOil`が`false`のときは、Seed Oilを要求しないレシピが読み込まれる
 
-`assets/pizzamarinaraforhac/recipes/food/pizza_marinara_raw.json`  
+[`assets/pizzamarinaraforhac/recipes/food/pizza_marinara_raw.json`](https://github.com/Iunius118/PizzaMarinaraForHaC/blob/master/src/main/resources/assets/pizzamarinaraforhac/recipes/food/pizza_marinara_raw.json)  
 <img src="./media/recipe_test_0_recipe_f.png">
 
 ## 検証結果
