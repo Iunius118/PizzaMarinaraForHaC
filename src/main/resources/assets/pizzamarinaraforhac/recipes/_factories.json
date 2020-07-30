@@ -1,0 +1,5 @@
+{
+  "conditions": {
+    "is_seed_oil_required": "com.github.iunius118.pizzamarinaraforhac.crafting.IsSeedOilRequiredCondition$Factory"
+  }
+}

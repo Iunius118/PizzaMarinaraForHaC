@@ -1,5 +1,6 @@
 package com.github.iunius118.pizzamarinaraforhac;
 
+import com.github.iunius118.pizzamarinaraforhac.config.MainConfig;
 import com.github.iunius118.pizzamarinaraforhac.food.entity.PizzaMarinaraEntity;
 import com.github.iunius118.pizzamarinaraforhac.food.item.PizzaItem;
 import com.github.iunius118.pizzamarinaraforhac.food.recipe.PizzaClimateRecipe;
@@ -28,7 +29,7 @@ public class PizzaMarinaraForHaC
 {
     public static final String MOD_ID = "pizzamarinaraforhac";
     public static final String NAME = "Pizza Marinara for HaC";
-    public static final String VERSION = "1.12.2-1.0.0.1";
+    public static final String VERSION = "1.12.2-1.1.0.0";
     public static final String DEPENDENCIES = "required-after:dcs_lib@[3.3.1,);required:dcs_climate";
 
     @SidedProxy(
@@ -42,6 +43,7 @@ public class PizzaMarinaraForHaC
     public void preInit(FMLPreInitializationEvent event) {
         logger = event.getModLog();
         MinecraftForge.EVENT_BUS.register(proxy);
+        MainConfig.init(event.getSuggestedConfigurationFile());
     }
 
     @EventHandler

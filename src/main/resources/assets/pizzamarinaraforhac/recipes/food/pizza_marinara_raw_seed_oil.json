@@ -2,7 +2,7 @@
     "conditions": [
         {
             "type": "pizzamarinaraforhac:is_seed_oil_required",
-            "value": false
+            "value": true
         }
     ],
     "type": "forge:ore_shapeless",
@@ -23,6 +23,10 @@
         {
             "type": "forge:ore_dict",
             "ore": "cropHerb"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "foodOil"
         }
     ],
     "result": {
