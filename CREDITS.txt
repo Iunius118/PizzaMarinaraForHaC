@@ -1,0 +1,10 @@
+=== Credits ===
+
+The texture images of Raw Pizza Marinara and Pizza Marinara in this mod are based on Heat And Climate Mod by defeatedcrow.
+Heat And Climate Mod
+Copyright (c) defeatedcrow 2016-
+https://github.com/defeatedcrow/HeatAndClimateMod
+
+Pizza Marinara for HaC
+Iunius118
+https://github.com/Iunius118/PizzaMarinaraForHaC

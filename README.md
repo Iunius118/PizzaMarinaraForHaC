@@ -9,9 +9,15 @@ This mod adds pizza marinara for Heat And Climate.
 - [Heat And Climate Lib](https://github.com/defeatedcrow/HeatAndClimateLib) 1.12.2-3.3.1+
 - [Heat And Climate Mod](https://github.com/defeatedcrow/HeatAndClimateMod) 1.12.2-3.3.3+
 
+## Credits
+
+The texture images of Raw Pizza Marinara and Pizza Marinara in this mod are based on [_Heat And Climate Mod_](https://github.com/defeatedcrow/HeatAndClimateMod) by defeatedcrow.  
+Copyright (c) defeatedcrow 2016-
+
 ## License
 
-All texture files in this mod are released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC-BY-NC-SA 4.0).  
-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+CC BY-NC-SA 4.0  
+https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en
 
-Credit: original works by [defeatedcrow](https://github.com/defeatedcrow), modified by Iunius118.
+----
+&copy; 2020 Iunius118

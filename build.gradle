@@ -76,3 +76,13 @@ processResources {
         exclude 'mcmod.info'
     }
 }
+
+jar {
+    from("LICENSE.txt") {
+        rename { "${it}"}
+    }
+    from("CREDITS.txt") {
+        rename { "${it}"}
+    }
+}
+

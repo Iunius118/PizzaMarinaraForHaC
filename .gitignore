@@ -19,6 +19,7 @@
 !.gitignore
 !.gitattributes
 !*.md
-!LICENSE
+!LICENSE.txt
+!CREDITS.txt
 !README_*
 !update.json
