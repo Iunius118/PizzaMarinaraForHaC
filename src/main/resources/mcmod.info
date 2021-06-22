@@ -5,7 +5,7 @@
   "description": "Adds pizza marinara for Heat And Climate",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/Iunius118/PizzaMarinaraForHaC",
   "updateUrl": "",
   "authorList": ["Iunius118"],
   "credits": "Iunius118, defeatedcrow",
