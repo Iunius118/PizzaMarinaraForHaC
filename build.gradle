@@ -78,11 +78,7 @@ processResources {
 }
 
 jar {
-    from("LICENSE.txt") {
-        rename { "${it}"}
-    }
-    from("CREDITS.txt") {
-        rename { "${it}"}
-    }
+    // Copy the LICENSE and CREDITS and include them in the jar
+    from("LICENSE.txt", "CREDITS.txt")
 }
 
